@@ -912,7 +912,7 @@ if url_q and url_q != st.session_state._url_processed:
 st.html("""
 <div class="topbar">
   <a href="/" class="brand" aria-label="yemekpuan">
-    <span class="brand-name">yemekpuan</span>
+    <span class="brand-name">yemek<em>puan</em></span>
   </a>
   <div class="nav-actions">
     <a class="nav-link" href="#">Rehber</a>
