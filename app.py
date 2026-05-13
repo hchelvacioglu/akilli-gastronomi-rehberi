@@ -154,19 +154,10 @@ def result_cards_grid(results: list[dict], image_map: dict[str, str]) -> str:
         price_scale = r.get("price_scale", "-")
         ambiance = r.get("ambiance", "-")
         dishes = r.get("signature_dishes", [])
-        note = r.get("_customer_note", r.get("vibe_summary", ""))
-        vibe = r.get("vibe_summary", "")
         best_for = r.get("best_for", [])
         liked = r.get("liked_items", [])
         disliked = r.get("disliked_items", [])
         pf = r.get("physical_features", {})
-        raw_semantic = r.get("raw_semantic", 0)
-        cat_b = r.get("_cat_boost", 1.0)
-        rat_b = r.get("_rat_boost", 1.0)
-        men_b = r.get("_men_boost", 1.0)
-        pri_b = r.get("_pri_boost", 1.0)
-        grp_b = r.get("_grp_boost", 1.0)
-        kw_b = r.get("_kw_boost", 1.0)
         is_fallback = r.get("_is_fallback", False)
         fallback_note = r.get("_fallback_note", "")
         failed_kws = r.get("_failed_keywords", [])
@@ -177,11 +168,6 @@ def result_cards_grid(results: list[dict], image_map: dict[str, str]) -> str:
             photo_html = f'<img src="{img_url}" alt="{name}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">'
         else:
             photo_html = f'<div style="position:absolute;inset:0;background:linear-gradient(135deg,oklch(0.55 0.05 80),oklch(0.40 0.04 70));display:grid;place-items:center;font-family:var(--serif);font-style:italic;color:rgba(255,255,255,0.7);font-size:48px;">🍽️</div>'
-
-        # Build score detail HTML for the expander-like section
-        score_detail = f"Ham: {raw_semantic:.4f} × Kat:{cat_b:.2f} × Puan:{rat_b:.2f} × Bah:{men_b:.2f} × Fiyat:{pri_b:.2f} × Grup:{grp_b:.2f}"
-        if kw_b != 1.0:
-            score_detail += f" × Kw:{kw_b:.2f}"
 
         # Dishes / liked
         dishes_str = ", ".join(dishes[:5]) if dishes else ""
@@ -201,10 +187,9 @@ def result_cards_grid(results: list[dict], image_map: dict[str, str]) -> str:
             <p class="rcard-cuisine">{cuisine_title}</p>
             <p class="rcard-address">{address}</p>
             <p class="rcard-price">{ambiance} · <strong>{price_scale}</strong></p>
-            {f'<p class="rcard-note">{note[:150]}{"…" if len(note) > 150 else ""}</p>' if note and note != vibe else ""}
-            {f'<p class="rcard-dishes">İmza yemekler: {dishes_str}</p>' if dishes_str else ""}
-            {f'<p class="rcard-liked">Beğenilen lezzetler: {liked_str}</p>' if liked_str else ""}
-            {f'<p class="rcard-bestfor">Neye gidilir: {best_for_str}</p>' if best_for_str else ""}
+            {f'<p class="rcard-dishes"><strong>İmza yemekler:</strong> {dishes_str}</p>' if dishes_str else ""}
+            {f'<p class="rcard-liked"><strong>Beğenilen lezzetler:</strong> {liked_str}</p>' if liked_str else ""}
+            {f'<p class="rcard-bestfor"><strong>Neye gidilir:</strong> {best_for_str}</p>' if best_for_str else ""}
             {f'<p class="rcard-fallback">⚠️ {fallback_note}<br>🔍 Aranan ama bulunamayan: <b>{", ".join(failed_kws)}</b></p>' if is_fallback else ""}
             {f'<details class="rcard-details"><summary>📝 Yorum kanıtı ({", ".join(leftover_kws)})</summary>{"<br>".join("…"+s.strip()+"…" for s in review_evidence[:3])}</details>' if review_evidence and leftover_kws else ""}
             {f'<details class="rcard-details"><summary>👎 Şikayetler</summary>{"<br>".join("• "+ (di["name"]+" — "+di.get("reason","")) if isinstance(di, dict) else "• "+di for di in disliked[:5])}</details>' if disliked else ""}
