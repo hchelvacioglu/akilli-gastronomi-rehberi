@@ -202,14 +202,10 @@ def result_cards_grid(results: list[dict], image_map: dict[str, str]) -> str:
             <p class="rcard-address">{address}</p>
             <p class="rcard-price">{ambiance} · <strong>{price_scale}</strong></p>
             {f'<p class="rcard-note">{note[:150]}{"…" if len(note) > 150 else ""}</p>' if note and note != vibe else ""}
-            {f'<p class="rcard-dishes">🍳 {dishes_str}</p>' if dishes_str else ""}
-            {f'<p class="rcard-liked">👍 {liked_str}</p>' if liked_str else ""}
-            {f'<p class="rcard-bestfor">🎯 {best_for_str}</p>' if best_for_str else ""}
+            {f'<p class="rcard-dishes">İmza yemekler: {dishes_str}</p>' if dishes_str else ""}
+            {f'<p class="rcard-liked">Beğenilen lezzetler: {liked_str}</p>' if liked_str else ""}
+            {f'<p class="rcard-bestfor">Neye gidilir: {best_for_str}</p>' if best_for_str else ""}
             {f'<p class="rcard-fallback">⚠️ {fallback_note}<br>🔍 Aranan ama bulunamayan: <b>{", ".join(failed_kws)}</b></p>' if is_fallback else ""}
-            <details class="rcard-details">
-              <summary>🔬 Skor Detayı</summary>
-              <p>{score_detail}</p>
-            </details>
             {f'<details class="rcard-details"><summary>📝 Yorum kanıtı ({", ".join(leftover_kws)})</summary>{"<br>".join("…"+s.strip()+"…" for s in review_evidence[:3])}</details>' if review_evidence and leftover_kws else ""}
             {f'<details class="rcard-details"><summary>👎 Şikayetler</summary>{"<br>".join("• "+ (di["name"]+" — "+di.get("reason","")) if isinstance(di, dict) else "• "+di for di in disliked[:5])}</details>' if disliked else ""}
             {f'<details class="rcard-details"><summary>🏠 Fiziksel Özellikler</summary>{"<br>".join("• "+k+": "+str(v) for k,v in pf.items() if v)}</details>' if pf else ""}
@@ -931,10 +927,10 @@ st.html(f"""
 <div class="hero">
   <div class="eyebrow">{current_semt_name} · Beta · {today_str}</div>
   <h1 class="hero-title">
-    Ne yemek istediğini söyle, <em>en uygun mekanı</em> bulalım.
+    İstediğini söyle, <em>en uygun mekanı</em> bulalım.
   </h1>
   <p class="hero-sub">
-    Yıldız sayısına değil; ruh haline, fiyatına, kalabalığına ve yanındakine göre öneri. Cümleyle yaz, semtini seç, gerisini bize bırak.
+    Yıldız sayısına değil; ruh haline, fiyatına, yani isteklerine göre öneri. İsteğini yaz, semtini seç, gerisini bize bırak.
   </p>
 </div>
 """)
@@ -1013,32 +1009,6 @@ if has_results:
       </a>
     </div>
     """)
-
-    # AI Summary box
-    if st.session_state.parsed_query and st.session_state.parsed_query.get("explanation"):
-        pq = st.session_state.parsed_query
-        explanation = pq["explanation"]
-
-        # Build extra details
-        extra_parts = []
-        if pq.get("semantic_query") and pq["semantic_query"] != st.session_state.query:
-            extra_parts.append(f'Arama metni: <mark>{pq["semantic_query"]}</mark>')
-        if pq.get("must_exclude_terms"):
-            extra_parts.append(f'Dışlanan: <mark>{", ".join(pq["must_exclude_terms"])}</mark>')
-        if pq.get("must_include_keywords"):
-            extra_parts.append(f'Aranan: <mark>{", ".join(pq["must_include_keywords"])}</mark>')
-
-        extra_html = " · ".join(extra_parts) if extra_parts else ""
-
-        st.html(f"""
-        <div class="ai-summary">
-          <div class="ai-icon">a</div>
-          <div>
-            <div class="ai-label">AI özet</div>
-            <p>{explanation}{" · " + extra_html if extra_html else ""}</p>
-          </div>
-        </div>
-        """)
 
     # Restaurant result cards
     image_map = load_image_map(st.session_state.neighborhood)
