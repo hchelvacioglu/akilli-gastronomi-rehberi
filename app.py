@@ -927,15 +927,11 @@ selected_kadikoy = "selected" if current_neighborhood == "kadikoy" else ""
 selected_bostanli = "selected" if current_neighborhood == "bostanli" else ""
 
 st.html(f"""
-<form id="search-form" onsubmit="event.preventDefault();
-  const q = document.getElementById('search-input').value.trim() || 'Bana güzel bir mekan öner';
-  const s = document.getElementById('search-district').value;
-  window.location.search = '?q=' + encodeURIComponent(q) + '&semt=' + encodeURIComponent(s);
-" style="max-width:980px;">
+<form id="search-form" method="GET" action="/" style="max-width:980px;">
   <div class="search-row">
     <div class="search-field" style="flex:1">
       <span class="search-label">Ne arıyorsun?</span>
-      <input id="search-input" class="search-input" type="text"
+      <input name="q" class="search-input" type="text"
              placeholder="Örn: sahilde manzaralı rakı-balık akşamı…"
              value="{html_escape(current_query)}"
              autocomplete="off">
@@ -943,7 +939,7 @@ st.html(f"""
     <div class="search-divider"></div>
     <div class="search-field" style="min-width:180px;">
       <span class="search-label">Semt</span>
-      <select id="search-district" class="search-input" style="cursor:pointer;">
+      <select name="semt" class="search-input" style="cursor:pointer;">
         <option value="kadikoy" {selected_kadikoy}>Kadıköy</option>
         <option value="bostanli" {selected_bostanli}>Bostanlı</option>
       </select>
