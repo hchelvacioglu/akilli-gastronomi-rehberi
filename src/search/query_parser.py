@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import os
+from functools import lru_cache
 from dotenv import load_dotenv
 from openai import OpenAI
 
@@ -20,6 +21,23 @@ def _get_client() -> OpenAI:
     if _client is None:
         _client = OpenAI()
     return _client
+
+
+@lru_cache(maxsize=128)
+def _cached_parse(query: str) -> str:
+    """LLM cagrisini yapar, sonucu JSON string olarak dondurur (cache'lenebilir)."""
+    client = _get_client()
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": query},
+        ],
+        temperature=0,
+        seed=42,
+        response_format={"type": "json_object"},
+    )
+    return response.choices[0].message.content
 
 
 SYSTEM_PROMPT = """Sen bir restoran arama asistanisin. Kullanicinin Turkce dogal dil sorusunu analiz edip yapisal arama parametreleri cikariyorsun.
@@ -58,21 +76,10 @@ SYSTEM_PROMPT = """Sen bir restoran arama asistanisin. Kullanicinin Turkce dogal
 
 
 def parse_query(query: str) -> dict:
-    """Kullanici sorgusunu GPT-4o-mini ile yapisal parametrelere donusturur."""
-    client = _get_client()
-
+    """Kullanici sorgusunu GPT-4o-mini ile yapisal parametrelere donusturur.
+    temperature=0 + seed + lru_cache sayesinde ayni sorgu her zaman ayni sonucu verir."""
     try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": query},
-            ],
-            temperature=0.1,
-            response_format={"type": "json_object"},
-        )
-
-        result = json.loads(response.choices[0].message.content)
+        result = json.loads(_cached_parse(query))
 
         # Alanlari normalize et
         return {
