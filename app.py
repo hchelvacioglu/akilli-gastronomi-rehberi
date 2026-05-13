@@ -234,7 +234,7 @@ def result_cards_grid(results: list[dict], image_map: dict[str, str]) -> str:
 # Page config (must be first Streamlit call)
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="akıllı·sofra",
+    page_title="yemekpuan",
     page_icon="",
     layout="wide",
 )
@@ -911,9 +911,8 @@ if url_q and url_q != st.session_state._url_processed:
 # ---------------------------------------------------------------------------
 st.html("""
 <div class="topbar">
-  <a href="/" class="brand" aria-label="akilli sofra">
-    <span class="brand-mark">a</span>
-    <span class="brand-name">akıllı<em>·</em>sofra</span>
+  <a href="/" class="brand" aria-label="yemekpuan">
+    <span class="brand-name">yemekpuan</span>
   </a>
   <div class="nav-actions">
     <a class="nav-link" href="#">Rehber</a>
@@ -1098,7 +1097,7 @@ st.html(f"""
 </div>
 
 <footer class="app-footer">
-  <div>© 2026 akıllı·sofra — Bağımsız gastronomi rehberi</div>
+  <div>© 2026 yemekpuan — Bağımsız gastronomi rehberi</div>
   <nav class="footer-links">
     <a href="#">Hakkında</a>
     <a href="#">SSS</a>
