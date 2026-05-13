@@ -1,0 +1,1089 @@
+[
+  {
+    "slug": "date-mekanlari",
+    "title": "👫 Date mekanları",
+    "query": "En iyi date mekanları",
+    "results": [
+      {
+        "name": "Kulüp Meyhane",
+        "rating": 4.7,
+        "score": 0.4525,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJyQ8b29nZuxQRb7OrFLmio3s"
+      },
+      {
+        "name": "Muhabbet Meyhane",
+        "rating": 4.7,
+        "score": 0.4458,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJuQkM9SLZuxQRCiwllqD69Jc"
+      },
+      {
+        "name": "Karşıyaka Meze Evi",
+        "rating": 4.6,
+        "score": 0.4358,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJrU9ZmpTZuxQRYnuHaZVieKQ"
+      },
+      {
+        "name": "KALENDER EV YEMEKLERİ",
+        "rating": 4.8,
+        "score": 0.4325,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Aile restoranı"
+        ],
+        "_place_id": "ChIJxf8w3zfZuxQR_BM8CGcG5So"
+      },
+      {
+        "name": "Etçiahmet",
+        "rating": 4.3,
+        "score": 0.431,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJH16-hZTZuxQRn6YnBl5kQ6o"
+      },
+      {
+        "name": "Peri Art Restoran İzmir",
+        "rating": 4.4,
+        "score": 0.4299,
+        "cuisine_style": "İtalyan",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJq1Gc6s7ZuxQRRCPxfMad3u4"
+      },
+      {
+        "name": "Çiğköfte Fabrikası Karşıyaka Şube",
+        "rating": 4.8,
+        "score": 0.4271,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dürüm Restoranı",
+          "Çiğ Köfteci",
+          "Fast food lokantası"
+        ],
+        "_place_id": "ChIJ7duRH_nZuxQR8JtuTXQm0yA"
+      },
+      {
+        "name": "Muhtelif Meyhane",
+        "rating": 4.3,
+        "score": 0.4246,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJP1x3gOnZuxQRB0PPqZL06aA"
+      },
+      {
+        "name": "gibi vegan",
+        "rating": 4.8,
+        "score": 0.4244,
+        "cuisine_style": "Vegan Türk mutfağı",
+        "categories": [
+          "Vegan Restoranı"
+        ],
+        "_place_id": "ChIJTxqOI4HZuxQRmghIGDQIhzU"
+      },
+      {
+        "name": "80's Cafe",
+        "rating": 4.5,
+        "score": 0.423,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Kafe"
+        ],
+        "_place_id": "ChIJtYOqeZbZuxQRikuQfR3Bbcc"
+      },
+      {
+        "name": "Künefeci Sergen Usta",
+        "rating": 4.5,
+        "score": 0.4209,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Tatlı Dükkanı",
+          "Kafe",
+          "Tatlıcı"
+        ],
+        "_place_id": "ChIJDSVxFa3ZuxQRKof0K5rgMWQ"
+      },
+      {
+        "name": "Gece Dürümcüsü Bostanlı",
+        "rating": 4.8,
+        "score": 0.4136,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dürüm Restoranı"
+        ],
+        "_place_id": "ChIJCTQo2k3ZuxQRQ2C3LPmkS7w"
+      },
+      {
+        "name": "Pasaj Meyhanesi Fuat'ın Yeri",
+        "rating": 4.4,
+        "score": 0.4136,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJ6bfXZZTZuxQRL4PO40vvUy8"
+      },
+      {
+        "name": "Motto Döner",
+        "rating": 4.3,
+        "score": 0.4127,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dönerci"
+        ],
+        "_place_id": "ChIJ7aHuhpTZuxQRDGIsD0OLXCc"
+      },
+      {
+        "name": "Çiğ köfteci RIZO",
+        "rating": 4.9,
+        "score": 0.4113,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Çiğ Köfteci"
+        ],
+        "_place_id": "ChIJ97NuvCjZuxQR-yt_1P-g11o"
+      }
+    ]
+  },
+  {
+    "slug": "lahmacuncular",
+    "title": "🥩 Lahmacuncular",
+    "query": "En iyi lahmacuncular",
+    "results": [
+      {
+        "name": "Aslı Pide",
+        "rating": 4.4,
+        "score": 1.6487,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Pideci"
+        ],
+        "_place_id": "ChIJXZgSvrvZuxQRJ8RlXudZNLk"
+      },
+      {
+        "name": "Tarihi Alaçatı Pidecisi",
+        "rating": 4.7,
+        "score": 1.612,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJISDGNszZuxQRJiwKOQsyv3o"
+      },
+      {
+        "name": "Öz Efe Manisalı Kebap",
+        "rating": 4.4,
+        "score": 1.5702,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran",
+          "Izgara",
+          "Kebap Restoranı"
+        ],
+        "_place_id": "ChIJ1e-WCwDYuxQRMWWyHbcemlA"
+      },
+      {
+        "name": "Çorbacı Mehmet Efendi",
+        "rating": 4.1,
+        "score": 1.5635,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Çorbacı"
+        ],
+        "_place_id": "ChIJwZdRbtDZuxQRHkFSFSWRoWs"
+      },
+      {
+        "name": "En Gözde Restaurant",
+        "rating": 4.1,
+        "score": 1.4007,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Aile restoranı"
+        ],
+        "_place_id": "ChIJf2wLbezZuxQRJx-gZN0syHo"
+      },
+      {
+        "name": "Quzu Ocakbaşı",
+        "rating": 4.2,
+        "score": 1.0234,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran",
+          "Et Lokantası"
+        ],
+        "_place_id": "ChIJKz-YQObZuxQRnMq1fpf3QaQ"
+      },
+      {
+        "name": "Ege ev yemekleri çorba çeşitleri",
+        "rating": 4.8,
+        "score": 0.8153,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Aşevi",
+          "Eve Yemek Servisi"
+        ],
+        "_place_id": "ChIJL3B4WcDZuxQRsYTG5dryWcs"
+      },
+      {
+        "name": "Ayder Karadeniz Ev Yemekleri",
+        "rating": 4.5,
+        "score": 0.6425,
+        "cuisine_style": "Karadeniz",
+        "categories": [
+          "Türk restoranı"
+        ],
+        "_place_id": "ChIJR7A5UX3XuxQRco4M8WV4SQs"
+      },
+      {
+        "name": "Pizza Locale",
+        "rating": 4.4,
+        "score": 0.602,
+        "cuisine_style": "İtalyan",
+        "categories": [
+          "Pizza restoranı",
+          "Restoran"
+        ],
+        "_place_id": "ChIJbYZw5JPZuxQRoLItL4yDQsU"
+      },
+      {
+        "name": "by halil usta",
+        "rating": 4.7,
+        "score": 0.4948,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Kebap Restoranı",
+          "Restoran"
+        ],
+        "_place_id": "ChIJe15-9MjZuxQRl4vDlv8USnA"
+      },
+      {
+        "name": "Öztabak Karadeniz Kahvaltısı",
+        "rating": 4.4,
+        "score": 0.4839,
+        "cuisine_style": "Karadeniz",
+        "categories": [
+          "Kahvaltı restoranı"
+        ],
+        "_place_id": "ChIJVyofQm_ZuxQR1Ckz3hYa14E"
+      },
+      {
+        "name": "Karşıyaka Meze Evi",
+        "rating": 4.6,
+        "score": 0.4606,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJrU9ZmpTZuxQRYnuHaZVieKQ"
+      },
+      {
+        "name": "Mommy Crumby Bostanlı",
+        "rating": 4.9,
+        "score": 0.4489,
+        "cuisine_style": "Tatlı",
+        "categories": [
+          "Tatlıcı",
+          "Kahve dükkanı",
+          "Kurabiye Dükkanı"
+        ],
+        "_place_id": "ChIJZ9d3WorZuxQRDlH2pNHXXyI"
+      },
+      {
+        "name": "Çiğköfte Fabrikası Karşıyaka Şube",
+        "rating": 4.8,
+        "score": 0.446,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dürüm Restoranı",
+          "Çiğ Köfteci",
+          "Fast food lokantası"
+        ],
+        "_place_id": "ChIJ7duRH_nZuxQR8JtuTXQm0yA"
+      },
+      {
+        "name": "Çiğ köfteci RIZO",
+        "rating": 4.9,
+        "score": 0.4419,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Çiğ Köfteci"
+        ],
+        "_place_id": "ChIJ97NuvCjZuxQR-yt_1P-g11o"
+      }
+    ]
+  },
+  {
+    "slug": "meze-keyfi",
+    "title": "🥂 Meze keyfi",
+    "query": "En iyi mezeye sahip mekanlar",
+    "results": [
+      {
+        "name": "Etçiahmet",
+        "rating": 4.3,
+        "score": 1.2372,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJH16-hZTZuxQRn6YnBl5kQ6o"
+      },
+      {
+        "name": "Karşıyaka Meze Evi",
+        "rating": 4.6,
+        "score": 1.205,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJrU9ZmpTZuxQRYnuHaZVieKQ"
+      },
+      {
+        "name": "Kulüp Meyhane",
+        "rating": 4.7,
+        "score": 1.1365,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJyQ8b29nZuxQRb7OrFLmio3s"
+      },
+      {
+        "name": "Muhtelif Meyhane",
+        "rating": 4.3,
+        "score": 1.1267,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJP1x3gOnZuxQRB0PPqZL06aA"
+      },
+      {
+        "name": "Karaf Meyhane",
+        "rating": 4.6,
+        "score": 1.065,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJUUKMBknZuxQRV4FVn0CZ7d8"
+      },
+      {
+        "name": "Üsküp Restoran",
+        "rating": 4.5,
+        "score": 1.0162,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJa-zAf5TZuxQRdbgOiEJkuk4"
+      },
+      {
+        "name": "İkram Evi",
+        "rating": 4.5,
+        "score": 0.9874,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Kaliteli yemek restoranı",
+          "Tatlı Dükkanı",
+          "Börekçi"
+        ],
+        "_place_id": "ChIJL3TGDb7ZuxQRDN5q0P4JCj4"
+      },
+      {
+        "name": "Vona Meyhane",
+        "rating": 4.3,
+        "score": 0.9805,
+        "cuisine_style": "Karadeniz",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJoZq2e5TZuxQR3cmKyw8M_7g"
+      },
+      {
+        "name": "Bostanlı Meyhanesi",
+        "rating": 4.3,
+        "score": 0.9667,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJbajuXwzZuxQRY9z1700B6Yg"
+      },
+      {
+        "name": "Son Kadeh Meyhane",
+        "rating": 4.1,
+        "score": 0.9613,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJe86VFmvZuxQRpnOPyr7VATI"
+      },
+      {
+        "name": "Ciğerci Suat Usta",
+        "rating": 4.2,
+        "score": 0.961,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJH16-hZTZuxQRFFsLTZJue7k"
+      },
+      {
+        "name": "Balıkçı Doğan Koniçe",
+        "rating": 4.4,
+        "score": 0.9592,
+        "cuisine_style": "deniz ürünleri / meyhane",
+        "categories": [
+          "Meyhane",
+          "Balık Restoranı"
+        ],
+        "_place_id": "ChIJH_6Eg8LZuxQR0C2eaA7tKRQ"
+      },
+      {
+        "name": "Kıvırcık Meyhane Bostanlı",
+        "rating": 4,
+        "score": 0.92,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJOShTkBDZuxQRn6RVi5Iv3T4"
+      },
+      {
+        "name": "Quzu Ocakbaşı",
+        "rating": 4.2,
+        "score": 0.8553,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran",
+          "Et Lokantası"
+        ],
+        "_place_id": "ChIJKz-YQObZuxQRnMq1fpf3QaQ"
+      },
+      {
+        "name": "En Gözde Restaurant",
+        "rating": 4.1,
+        "score": 0.8498,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Aile restoranı"
+        ],
+        "_place_id": "ChIJf2wLbezZuxQRJx-gZN0syHo"
+      }
+    ]
+  },
+  {
+    "slug": "romantik-balik",
+    "title": "🐟 Deniz kenarı romantik balık",
+    "query": "Deniz kenarında romantik balık",
+    "results": [
+      {
+        "name": "Kent Balık Restoran",
+        "rating": 4.2,
+        "score": 2.0902,
+        "cuisine_style": "deniz mahsulleri",
+        "categories": [
+          "Balık Restoranı",
+          "Bar",
+          "Aile restoranı"
+        ],
+        "_place_id": "ChIJMTqT-brZuxQRgY47jyOA0K0"
+      },
+      {
+        "name": "Lagun Bostanlı",
+        "rating": 4,
+        "score": 1.9823,
+        "cuisine_style": "deniz mahsulleri",
+        "categories": [
+          "Balık Restoranı"
+        ],
+        "_place_id": "ChIJbdyKyAzZuxQRZ4dnzI4kxCE"
+      },
+      {
+        "name": "Balıkçı Mehmet Usta",
+        "rating": 4,
+        "score": 1.8746,
+        "cuisine_style": "Deniz mahsulleri",
+        "categories": [
+          "Balık Restoranı",
+          "Balık ve Patates Cipsi Restoranı",
+          "Deniz mahsülleri restoranı"
+        ],
+        "_place_id": "ChIJB-CE1ZPZuxQR_nD38VsKlyk"
+      },
+      {
+        "name": "BOSTANLI BALIK",
+        "rating": 4.2,
+        "score": 1.3985,
+        "cuisine_style": "Akdeniz",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJEwxtaRq9yhQR-fyp54_bDpk"
+      },
+      {
+        "name": "Muhtelif Meyhane",
+        "rating": 4.3,
+        "score": 0.8653,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJP1x3gOnZuxQRB0PPqZL06aA"
+      },
+      {
+        "name": "Yasemin Restaurant - Cafe",
+        "rating": 4.1,
+        "score": 0.3486,
+        "cuisine_style": "Türk / Akdeniz",
+        "categories": [
+          "Kafe",
+          "Restoran"
+        ],
+        "_place_id": "ChIJS4tIW4vZuxQRgiDNdnNQRc0"
+      },
+      {
+        "name": "Nuvia Bostanlı Breakfast - Kitchen & Bar",
+        "rating": 4.6,
+        "score": 0.3142,
+        "cuisine_style": "Türk / Akdeniz",
+        "categories": [
+          "Kahvaltı restoranı",
+          "Bar",
+          "Bistro"
+        ],
+        "_place_id": "ChIJ0ZmhZ5XZuxQRLH079WzMhEU"
+      }
+    ]
+  },
+  {
+    "slug": "kahvalti",
+    "title": "🥞 Kahvaltı mekanları",
+    "query": "Çoluk çocuklu kahvaltı",
+    "results": [
+      {
+        "name": "80ler kahvaltı",
+        "rating": 4.8,
+        "score": 2.0978,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Brunch restoranı",
+          "Kahvaltı restoranı"
+        ],
+        "_place_id": "ChIJmXbuJPrZuxQRIoUSLxv4wVE"
+      },
+      {
+        "name": "Morisi Kahvaltı Bostanlı",
+        "rating": 4.7,
+        "score": 1.99,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Kahvaltı restoranı"
+        ],
+        "_place_id": "ChIJAZluTZTZuxQRUp4wPeR9D1U"
+      },
+      {
+        "name": "Café de feu Breakfast & Brunch",
+        "rating": 4.6,
+        "score": 1.8638,
+        "cuisine_style": "Türk / Fransız",
+        "categories": [
+          "Kahvaltı restoranı",
+          "Brunch restoranı"
+        ],
+        "_place_id": "ChIJ-ZBoTArZuxQRl_sxA26bUx4"
+      },
+      {
+        "name": "Nuvia Bostanlı Breakfast - Kitchen & Bar",
+        "rating": 4.6,
+        "score": 1.7768,
+        "cuisine_style": "Türk / Akdeniz",
+        "categories": [
+          "Kahvaltı restoranı",
+          "Bar",
+          "Bistro"
+        ],
+        "_place_id": "ChIJ0ZmhZ5XZuxQRLH079WzMhEU"
+      },
+      {
+        "name": "İskele Kahvaltı cafe",
+        "rating": 4,
+        "score": 1.7405,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Kahvaltı restoranı"
+        ],
+        "_place_id": "ChIJd6i42EnZuxQRGTHGosHtVm8"
+      },
+      {
+        "name": "Proof Breakfast & Coffee Bostanlı",
+        "rating": 4.4,
+        "score": 1.7308,
+        "cuisine_style": "kahvaltı",
+        "categories": [
+          "Kahvaltı restoranı",
+          "Kahve dükkanı"
+        ],
+        "_place_id": "ChIJreFqGL7ZuxQRE5v4tum2Qas"
+      },
+      {
+        "name": "Dodi Çi Börek & Kahvaltı Salonu",
+        "rating": 4.3,
+        "score": 1.6655,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Kahvaltı restoranı",
+          "Börekçi"
+        ],
+        "_place_id": "ChIJx3cH9ZTZuxQRdeecgZoqJOo"
+      },
+      {
+        "name": "Öztabak Karadeniz Kahvaltısı",
+        "rating": 4.4,
+        "score": 1.656,
+        "cuisine_style": "Karadeniz",
+        "categories": [
+          "Kahvaltı restoranı"
+        ],
+        "_place_id": "ChIJVyofQm_ZuxQR1Ckz3hYa14E"
+      },
+      {
+        "name": "Park Kafe",
+        "rating": 4,
+        "score": 1.6173,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Kafe"
+        ],
+        "_place_id": "ChIJXXCio5bZuxQRC3P8gd8xzpw"
+      },
+      {
+        "name": "Tereci Mavişehir Kahvaltı ve Satış Mağazası",
+        "rating": 4,
+        "score": 1.4768,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Kahvaltı restoranı",
+          "Gurme Marketi",
+          "Doğal Gıda Satış Yeri"
+        ],
+        "_place_id": "ChIJM3LIBBDauxQRO7fHLFPRJn8"
+      },
+      {
+        "name": "Le Dimanche",
+        "rating": 4.4,
+        "score": 1.4745,
+        "cuisine_style": "Fransız",
+        "categories": [
+          "Brunch restoranı"
+        ],
+        "_place_id": "ChIJOyLOJA_ZuxQRO9wvditkPxQ"
+      },
+      {
+        "name": "Berry Coffee Company Bostanlı",
+        "rating": 4.2,
+        "score": 1.405,
+        "cuisine_style": "Tatlı",
+        "categories": [
+          "Çikolata Dükkanı"
+        ],
+        "_place_id": "ChIJndlu9TjZuxQRjVWKKeZKCcg"
+      },
+      {
+        "name": "Filozof Bostanlı",
+        "rating": 4.6,
+        "score": 1.399,
+        "cuisine_style": "Türk, İtalyan",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJu7S50UrZuxQRUef9kPPSMaQ"
+      },
+      {
+        "name": "Yasemin Restaurant - Cafe",
+        "rating": 4.1,
+        "score": 1.34,
+        "cuisine_style": "Türk / Akdeniz",
+        "categories": [
+          "Kafe",
+          "Restoran"
+        ],
+        "_place_id": "ChIJS4tIW4vZuxQRgiDNdnNQRc0"
+      },
+      {
+        "name": "Neuf Patisserie & Boulangerie",
+        "rating": 4.7,
+        "score": 1.2765,
+        "cuisine_style": "Fransız",
+        "categories": [
+          "Pastane"
+        ],
+        "_place_id": "ChIJL2vpvKXZuxQRrbT90eqnRdI"
+      }
+    ]
+  },
+  {
+    "slug": "donerci",
+    "title": "🥙 Hızlı & ucuz dönerci",
+    "query": "Hızlı ve ucuz dönerci",
+    "results": [
+      {
+        "name": "Dönerci Vahap Usta",
+        "rating": 4.3,
+        "score": 1.8857,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dönerci",
+          "Fast food lokantası"
+        ],
+        "_place_id": "ChIJCbCCxsDZuxQR1-YiyUV7QDo"
+      },
+      {
+        "name": "Roka Döner",
+        "rating": 4.6,
+        "score": 1.777,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJN20sH_vZuxQR4nCFYWUUry8"
+      },
+      {
+        "name": "Motto Döner",
+        "rating": 4.3,
+        "score": 1.7363,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dönerci"
+        ],
+        "_place_id": "ChIJ7aHuhpTZuxQRDGIsD0OLXCc"
+      },
+      {
+        "name": "Lezzy Döner",
+        "rating": 4.3,
+        "score": 1.6128,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dönerci",
+          "Fast food lokantası"
+        ],
+        "_place_id": "ChIJCdkxgpPZuxQRuaIhB_PQoXM"
+      },
+      {
+        "name": "Al Döner İskender Mustafa Usta",
+        "rating": 4.8,
+        "score": 1.605,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dönerci",
+          "Türk restoranı"
+        ],
+        "_place_id": "ChIJf3o-DNLZuxQRZs4Vab5v4sc"
+      },
+      {
+        "name": "Ankara Dönercisi Bostanlı",
+        "rating": 4.6,
+        "score": 1.5885,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dönerci"
+        ],
+        "_place_id": "ChIJb-OvKgXZuxQRrfGJTiSIssg"
+      },
+      {
+        "name": "Doğadan Döner",
+        "rating": 4.6,
+        "score": 1.5623,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJtdj4tUDZuxQR-Y5_4ARnzCw"
+      },
+      {
+        "name": "MİRAY ET BOSTANLI",
+        "rating": 4.5,
+        "score": 1.5553,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Şarküteri Kasap",
+          "Süt Ürünleri Üretimi",
+          "Et Toptancısı"
+        ],
+        "_place_id": "ChIJ0W39PPjZuxQRAKhAjlSQPRY"
+      },
+      {
+        "name": "Asil Döner - Mavişehir Atakent Gerçek Et Döner",
+        "rating": 4.5,
+        "score": 1.5473,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dönerci"
+        ],
+        "_place_id": "ChIJZ2N8StbZuxQRip7vu-GNGyA"
+      },
+      {
+        "name": "YASEMIN DÖNER",
+        "rating": 4.2,
+        "score": 1.5268,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dönerci",
+          "Fast food lokantası",
+          "Restoran"
+        ],
+        "_place_id": "ChIJhZm61gzZuxQRts8JVIRBI4I"
+      },
+      {
+        "name": "Kebo Bostanlı",
+        "rating": 4.5,
+        "score": 1.4677,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dönerci"
+        ],
+        "_place_id": "ChIJP6QtZbjZuxQRF5IGbga44c4"
+      },
+      {
+        "name": "Bosstanlı DK",
+        "rating": 4,
+        "score": 1.2848,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Dönerci"
+        ],
+        "_place_id": "ChIJ6x7u277ZuxQRYKElqzvKj2s"
+      },
+      {
+        "name": "Quattro.Gusti",
+        "rating": 4.3,
+        "score": 1.1118,
+        "cuisine_style": "İtalyan",
+        "categories": [
+          "İtalyan restoranı"
+        ],
+        "_place_id": "ChIJUQyqagDZuxQRDgQUoVLOpnQ"
+      },
+      {
+        "name": "En Gözde Restaurant",
+        "rating": 4.1,
+        "score": 0.912,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Aile restoranı"
+        ],
+        "_place_id": "ChIJf2wLbezZuxQRJx-gZN0syHo"
+      },
+      {
+        "name": "Hamsi Balık Evi-Baba Döner",
+        "rating": 4.1,
+        "score": 0.9027,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Balıkçı",
+          "Dönerci",
+          "Balık Restoranı"
+        ],
+        "_place_id": "ChIJf8lHlAvZuxQRfe_eSSrWIc4"
+      }
+    ]
+  },
+  {
+    "slug": "sac-kavurma",
+    "title": "🍳 Sac kavurma",
+    "query": "Sac kavurma yapan yer",
+    "results": [
+      {
+        "name": "Karaf Meyhane",
+        "rating": 4.6,
+        "score": 0.3872,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJUUKMBknZuxQRV4FVn0CZ7d8"
+      },
+      {
+        "name": "Bostanlı Meyhanesi",
+        "rating": 4.3,
+        "score": 0.3286,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJbajuXwzZuxQRY9z1700B6Yg"
+      },
+      {
+        "name": "Kavala Meyhane",
+        "rating": 4.3,
+        "score": 0.3227,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJNfLaaE7ZuxQR3byLqny-8dg"
+      }
+    ]
+  },
+  {
+    "slug": "manzarali-pizza",
+    "title": "🍕 Manzaralı pizza",
+    "query": "Pahalı olmayan manzaralı pizza",
+    "results": [
+      {
+        "name": "Yasemin Restaurant - Cafe",
+        "rating": 4.1,
+        "score": 0.9792,
+        "cuisine_style": "Türk / Akdeniz",
+        "categories": [
+          "Kafe",
+          "Restoran"
+        ],
+        "_place_id": "ChIJS4tIW4vZuxQRgiDNdnNQRc0"
+      },
+      {
+        "name": "Nuvia Bostanlı Breakfast - Kitchen & Bar",
+        "rating": 4.6,
+        "score": 0.6761,
+        "cuisine_style": "Türk / Akdeniz",
+        "categories": [
+          "Kahvaltı restoranı",
+          "Bar",
+          "Bistro"
+        ],
+        "_place_id": "ChIJ0ZmhZ5XZuxQRLH079WzMhEU"
+      },
+      {
+        "name": "Park Kafe",
+        "rating": 4,
+        "score": 0.4934,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Kafe"
+        ],
+        "_place_id": "ChIJXXCio5bZuxQRC3P8gd8xzpw"
+      },
+      {
+        "name": "İskele Kahvaltı cafe",
+        "rating": 4,
+        "score": 0.4757,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Kahvaltı restoranı"
+        ],
+        "_place_id": "ChIJd6i42EnZuxQRGTHGosHtVm8"
+      },
+      {
+        "name": "BOSTANLI BALIK",
+        "rating": 4.2,
+        "score": 0.3896,
+        "cuisine_style": "Akdeniz",
+        "categories": [
+          "Restoran"
+        ],
+        "_place_id": "ChIJEwxtaRq9yhQR-fyp54_bDpk"
+      },
+      {
+        "name": "Reyhan Pastanesi Bostanlı",
+        "rating": 4.3,
+        "score": 0.3811,
+        "cuisine_style": "pastane",
+        "categories": [
+          "Pastane"
+        ],
+        "_place_id": "ChIJNQEu9JLZuxQRi6sUHMe7xRo"
+      },
+      {
+        "name": "Muhtelif Meyhane",
+        "rating": 4.3,
+        "score": 0.3796,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Meyhane"
+        ],
+        "_place_id": "ChIJP1x3gOnZuxQRB0PPqZL06aA"
+      },
+      {
+        "name": "80ler kahvaltı",
+        "rating": 4.8,
+        "score": 0.3754,
+        "cuisine_style": "Türk",
+        "categories": [
+          "Brunch restoranı",
+          "Kahvaltı restoranı"
+        ],
+        "_place_id": "ChIJmXbuJPrZuxQRIoUSLxv4wVE"
+      },
+      {
+        "name": "OLTA BALIK BOSTANLI RESTORAN",
+        "rating": 4.4,
+        "score": 0.3701,
+        "cuisine_style": "deniz mahsulleri",
+        "categories": [
+          "Balık Restoranı"
+        ],
+        "_place_id": "ChIJ19MlkpDZuxQRG5UhNkVUuUQ"
+      },
+      {
+        "name": "Balıkçı Mehmet Usta",
+        "rating": 4,
+        "score": 0.358,
+        "cuisine_style": "Deniz mahsulleri",
+        "categories": [
+          "Balık Restoranı",
+          "Balık ve Patates Cipsi Restoranı",
+          "Deniz mahsülleri restoranı"
+        ],
+        "_place_id": "ChIJB-CE1ZPZuxQR_nD38VsKlyk"
+      },
+      {
+        "name": "Lagun Bostanlı",
+        "rating": 4,
+        "score": 0.3521,
+        "cuisine_style": "deniz mahsulleri",
+        "categories": [
+          "Balık Restoranı"
+        ],
+        "_place_id": "ChIJbdyKyAzZuxQRZ4dnzI4kxCE"
+      },
+      {
+        "name": "Uggla Coffee",
+        "rating": 4.5,
+        "score": 0.3406,
+        "cuisine_style": "kahve",
+        "categories": [
+          "Kahve dükkanı"
+        ],
+        "_place_id": "ChIJBYxdb5bZuxQRmxI_i4t6ypw"
+      },
+      {
+        "name": "Kent Balık Restoran",
+        "rating": 4.2,
+        "score": 0.3396,
+        "cuisine_style": "deniz mahsulleri",
+        "categories": [
+          "Balık Restoranı",
+          "Bar",
+          "Aile restoranı"
+        ],
+        "_place_id": "ChIJMTqT-brZuxQRgY47jyOA0K0"
+      }
+    ]
+  }
+]
