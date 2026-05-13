@@ -158,6 +158,35 @@ def result_cards_grid(results: list[dict], image_map: dict[str, str]) -> str:
         liked = r.get("liked_items", [])
         disliked = r.get("disliked_items", [])
         pf = r.get("physical_features", {})
+        # Format physical features as readable Turkish strings
+        feature_lines = []
+        if pf:
+            view = pf.get("view", "")
+            if view and "yok" not in str(view).lower():
+                feature_lines.append(str(view).capitalize())
+            decor = pf.get("decor", "")
+            if decor and "yok" not in str(decor).lower():
+                feature_lines.append(f"{str(decor).capitalize()} dekora sahip")
+            seating = pf.get("seating", "")
+            if seating:
+                feature_lines.append(f"{str(seating).capitalize()} oturma")
+            outdoor = pf.get("outdoor", "")
+            if outdoor and "yok" not in str(outdoor).lower():
+                feature_lines.append("Açık hava bölümü var" if outdoor == "var" else f"Açık hava: {outdoor}")
+            parking = pf.get("parking", "")
+            if parking:
+                if parking in ("var", "otopark"):
+                    feature_lines.append("Otoparkı var")
+                elif parking == "yok":
+                    feature_lines.append("Otoparkı yok")
+                elif parking == "vale":
+                    feature_lines.append("Vale park")
+                else:
+                    feature_lines.append(f"Park: {parking}")
+            max_grp = pf.get("max_group_size")
+            if max_grp and str(max_grp).isdigit():
+                feature_lines.append(f"En fazla {max_grp} kişilik gruplar")
+        features_str = " · ".join(feature_lines) if feature_lines else ""
         is_fallback = r.get("_is_fallback", False)
         fallback_note = r.get("_fallback_note", "")
         failed_kws = r.get("_failed_keywords", [])
@@ -193,7 +222,7 @@ def result_cards_grid(results: list[dict], image_map: dict[str, str]) -> str:
             {f'<p class="rcard-fallback">⚠️ {fallback_note}<br>🔍 Aranan ama bulunamayan: <b>{", ".join(failed_kws)}</b></p>' if is_fallback else ""}
             {f'<details class="rcard-details"><summary>📝 Yorum kanıtı ({", ".join(leftover_kws)})</summary>{"<br>".join("…"+s.strip()+"…" for s in review_evidence[:3])}</details>' if review_evidence and leftover_kws else ""}
             {f'<details class="rcard-details"><summary>👎 Şikayetler</summary>{"<br>".join("• "+ (di["name"]+" — "+di.get("reason","")) if isinstance(di, dict) else "• "+di for di in disliked[:5])}</details>' if disliked else ""}
-            {f'<details class="rcard-details"><summary>🏠 Fiziksel Özellikler</summary>{"<br>".join("• "+k+": "+str(v) for k,v in pf.items() if v)}</details>' if pf else ""}
+            {f'<p class="rcard-features">{features_str}</p>' if features_str else ""}
           </div>
         </div>
         '''
@@ -741,7 +770,7 @@ div[data-testid="stVerticalBlock"] > div[data-testid="stVerticalBlock"] {
   line-height: 1.45;
   font-style: italic;
 }
-.rcard-dishes, .rcard-liked, .rcard-bestfor {
+.rcard-dishes, .rcard-liked, .rcard-bestfor, .rcard-features {
   margin: 2px 0 0;
   font-size: 12px;
   color: var(--ink-2);
